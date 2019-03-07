@@ -1,0 +1,136 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/apps/GoRenamer/root_dir</key>
+			<applyto>/apps/GoRenamer/root_dir</applyto>
+			<owner>GoRenamer</owner>
+			<type>string</type>
+			<default></default>
+			<locale name="C">
+				<short>Default root dir</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/active_dir</key>
+			<applyto>/apps/GoRenamer/active_dir</applyto>
+			<owner>GoRenamer</owner>
+			<type>string</type>
+			<default></default>
+			<locale name="C">
+				<short>Default active dir</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/window_maximized</key>
+			<applyto>/apps/GoRenamer/window_maximized</applyto>
+			<owner>GoRenamer</owner>
+			<type>bool</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Is the window maximized?</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/pane_position</key>
+			<applyto>/apps/GoRenamer/pane_position</applyto>
+			<owner>GoRenamer</owner>
+			<type>int</type>
+			<default>250</default>
+			<locale name="C">
+				<short>Position of the pane separator</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/window_width</key>
+			<applyto>/apps/GoRenamer/window_width</applyto>
+			<owner>GoRenamer</owner>
+			<type>int</type>
+			<default>500</default>
+			<locale name="C">
+				<short>Window width</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/window_height</key>
+			<applyto>/apps/GoRenamer/window_height</applyto>
+			<owner>GoRenamer</owner>
+			<type>int</type>
+			<default>500</default>
+			<locale name="C">
+				<short>Window height</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/window_posx</key>
+			<applyto>/apps/GoRenamer/window_posx</applyto>
+			<owner>GoRenamer</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>X position of the window</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/window_posy</key>
+			<applyto>/apps/GoRenamer/window_posy</applyto>
+			<owner>GoRenamer</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Y position of the window</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/options_shown</key>
+			<applyto>/apps/GoRenamer/options_shown</applyto>
+			<owner>GoRenamer</owner>
+			<type>bool</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Display the options pane</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/options_filedir</key>
+			<applyto>/apps/GoRenamer/options_filedir</applyto>
+			<owner>GoRenamer</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Rename files or directories</short>
+				<long>0: Rename files / 1: Rename directories / 2: Rename files and directories</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/keepext</key>
+			<applyto>/apps/GoRenamer/keepext</applyto>
+			<owner>GoRenamer</owner>
+			<type>bool</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Keep files extensions</short>
+				<long></long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/GoRenamer/autopreview</key>
+			<applyto>/apps/GoRenamer/autopreview</applyto>
+			<owner>GoRenamer</owner>
+			<type>bool</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Auto preview changes</short>
+				<long></long>
+			</locale>
+		</schema>
+	</schemalist>
+</gconfschemafile>
